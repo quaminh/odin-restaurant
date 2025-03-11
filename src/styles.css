@@ -1,0 +1,46 @@
+body, h1, h2, p {
+    margin: 0;
+}
+
+header, .about, .info {
+    background-color: cadetblue;
+    padding: 25px 50px;
+    color: white;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav > h1 {
+    margin-right: auto;
+    cursor: default;
+}
+
+.splash {
+    width: 100vw;
+    padding: 50px;
+}
+
+.splash > * {
+    margin-left: 50px;
+}
+
+.reviews {
+    padding: 50px;
+}
+
+.info {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
