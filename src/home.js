@@ -8,6 +8,8 @@ function createSplash() {
     const menuButton = document.createElement("button");
     const orderButton = document.createElement("button");
 
+    buttonContainer.classList.add("container");
+
     heading.textContent = "Enter, PEARLESCENT";
     body.textContent = "Home of the finest quality bubble tea under our moon."
     menuButton.textContent = "View our Menu";
@@ -62,7 +64,13 @@ function createInfo() {
     const info = document.createElement("div");
     info.classList.add("info");
 
+    const heading = document.createElement("h2");
     const location = document.createElement("p");
+
+    heading.textContent = "Find us at"
+    location.textContent = "[ LOCATION REDACTED BECAUSE IT'S NOT REAL ]"
+
+    info.appendChild(heading);
     info.appendChild(location);
 
     weekdays.forEach((d) => {{
